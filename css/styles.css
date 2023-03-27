@@ -9,8 +9,14 @@ h1 {
   line-height: 1.5;
   margin-bottom: 50px;
 }
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 body {
@@ -40,13 +46,17 @@ body {
 /* Title img */
 .dog-img {
   transform: rotate(25deg);
-  width: 60%;
+  width: 22%;
+  position: absolute;
+  right: 25%;
+}
+.title-col {
+  margin-top: 7%;
 }
 /* Feature */
 .feature-icon {
   color: #ef8172;
-  font-size: 4rem;
-  height: 50px;
+  margin: 10px 0 10px 0;
 }
 .feature-icon:hover {
   color: #ff4c68;
@@ -69,4 +79,40 @@ body {
 }
 #features .col-lg-4 {
   padding: 70px 0 70px 0;
+}
+#features {
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col {
+  padding: 3% 2%;
 }
